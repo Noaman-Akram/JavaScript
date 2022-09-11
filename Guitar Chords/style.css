@@ -1,6 +1,6 @@
 body {
-    background-image:    url(pexels-rodnae-productions-8182363.jpg);
-    background-size:    cover;
+    background-image: url(pexels-rodnae-productions-8182363.jpg);
+    background-size: cover;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -9,8 +9,10 @@ body {
 h1{
     margin-bottom: 50px;
 }
+
 .buttons-list {
     display: flex;
+    flex-wrap:wrap;
     list-style: none;
     margin: 1% 15%;
 }
@@ -28,11 +30,8 @@ h1{
 .btn:active{
     transform: translateX(10px);
 }
-
-
 .display-6{
     color: aliceblue;
-    font-size: xx-large;
     background:rgba(1, 1, 1, 0.5);
     border-radius: 5px;
 }
